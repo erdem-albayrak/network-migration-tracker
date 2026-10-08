@@ -69,3 +69,33 @@ st.download_button(
     mime="text/csv",
     disabled=filtered.empty,
 )
+st.divider()
+st.subheader("RAID Register")
+st.caption("Risks, Assumptions, Issues and Dependencies — fictional portfolio data.")
+
+raid_path = Path(__file__).parent / "data" / "raid.csv"
+raid_df = pd.read_csv(raid_path)
+
+raid_type = st.selectbox(
+    "Filter RAID by type",
+    ["All", "Risk", "Assumption", "Issue", "Dependency"],
+)
+
+raid_filtered = raid_df.copy()
+
+if raid_type != "All":
+    raid_filtered = raid_filtered[raid_filtered["Type"] == raid_type]
+
+st.dataframe(
+    raid_filtered,
+    use_container_width=True,
+    hide_index=True,
+)
+
+st.download_button(
+    label="Download filtered RAID as CSV",
+    data=raid_filtered.to_csv(index=False).encode("utf-8-sig"),
+    file_name=f"raid_report_{today:%Y-%m-%d}.csv",
+    mime="text/csv",
+    disabled=raid_filtered.empty,
+)
