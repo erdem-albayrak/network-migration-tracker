@@ -1,4 +1,4 @@
-\# Network Migration Tracker
+# Network Migration Tracker
 
 
 
@@ -10,43 +10,43 @@ The project simulates tracking a network migration across 10 sites, combining de
 
 
 
-\## Features
+## Features
 
 
 
-\- Load migration records from a CSV file.
+- Load migration records from a CSV file.
 
-\- Display total sites, completed sites, completion percentage, and overdue count.
+- Display total sites, completed sites, completion percentage, and overdue count.
 
-\- Filter migrations by status.
+- Filter migrations by status.
 
-\- Show overdue migrations only.
+- Show overdue migrations only.
 
-\- Download the filtered migration table as CSV.
+- Download the filtered migration table as CSV.
 
-\- Track risks, assumptions, issues, and dependencies in a RAID register.
+- Track risks, assumptions, issues, and dependencies in a RAID register.
 
-\- Filter RAID records by type.
+- Filter RAID records by type.
 
-\- Download the filtered RAID register as CSV.
-
-
-
-\## Project Management Approach
+- Download the filtered RAID register as CSV.
 
 
 
-\- Project scope and objectives documented in a project charter.
-
-\- Migration records include an owner, planned date, and status.
-
-\- RAID records include an owner, priority, due date, status, and action.
-
-\- Changes developed on separate Git branches and merged through pull requests.
+## Project Management Approach
 
 
 
-\## Migration Rules
+- Project scope and objectives documented in a project charter.
+
+- Migration records include an owner, planned date, and status.
+
+- RAID records include an owner, priority, due date, status, and action.
+
+- Changes developed on separate Git branches and merged through pull requests.
+
+
+
+## Migration Rules
 
 
 
@@ -66,23 +66,23 @@ The completion percentage represents completed sites divided by total sites. It 
 
 
 
-\## Project Structure
+## Project Structure
 
 
 
-\- `app.py` — Streamlit application
+- `app.py` — Streamlit application
 
-\- `requirements.txt` — Python dependencies
+- `requirements.txt` — Python dependencies
 
-\- `data/migrations.csv` — Fictional migration records
+- `data/migrations.csv` — Fictional migration records
 
-\- `data/raid.csv` — Fictional RAID records
+- `data/raid.csv` — Fictional RAID records
 
-\- `docs/project-charter.md` — Project charter
+- `docs/project-charter.md` — Project charter
 
 
 
-\## Run Locally on Windows
+## Run Locally on Windows
 
 
 
@@ -132,7 +132,7 @@ Activate it:
 
 ```text
 
-.venv\\Scripts\\activate
+.venv\Scripts\activate
 
 ```
 
@@ -170,7 +170,7 @@ Access to the repository is required if it is private.
 
 
 
-\## Sample Data and Limitations
+## Sample Data and Limitations
 
 
 
@@ -186,7 +186,7 @@ Overdue counts change with the current date.
 
 
 
-\## Author
+## Author
 
 
 
