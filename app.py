@@ -62,3 +62,10 @@ if filtered.empty:
     st.info("Seçilen filtrelere uygun lokasyon bulunamadı.")
 else:
     st.dataframe(filtered, use_container_width=True, hide_index=True)
+st.download_button(
+    label="Download filtered data as CSV",
+    data=filtered.to_csv(index=False).encode("utf-8-sig"),
+    file_name=f"migration_report_{today:%Y-%m-%d}.csv",
+    mime="text/csv",
+    disabled=filtered.empty,
+)
