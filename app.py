@@ -61,7 +61,7 @@ st.caption(
 if filtered.empty:
     st.info("Seçilen filtrelere uygun lokasyon bulunamadı.")
 else:
-    st.dataframe(filtered, use_container_width=True, hide_index=True)
+    st.dataframe(filtered, width="stretch", hide_index=True)
 st.download_button(
     label="Download filtered data as CSV",
     data=filtered.to_csv(index=False).encode("utf-8-sig"),
@@ -88,7 +88,7 @@ if raid_type != "All":
 
 st.dataframe(
     raid_filtered,
-    use_container_width=True,
+    width="stretch",
     hide_index=True,
 )
 
