@@ -1,0 +1,8 @@
+Activity,Sponsor,PM,Architect,Migration,Security,Operations,Vendor
+Scope and funding,A,R,C,I,I,C,I
+Design approval,I,C,A/R,C,C,C,C
+Equipment delivery,I,A,C,I,I,I,R
+Change authorization,I,R,C,C,C,A,I
+Branch migration,I,A,C,R,C,C,C
+Security acceptance,I,C,C,C,A/R,C,I
+Service handover,I,A,C,C,C,R,I

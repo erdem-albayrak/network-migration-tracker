@@ -1,11 +1,11 @@
-Site,Owner,Planned Date,Status
-Istanbul,Engineer A,2026-10-01,Completed
-Ankara,Engineer B,2026-10-05,In Progress
-Izmir,Engineer C,2026-10-06,Planned
-Bursa,Engineer A,2026-10-07,Tested
-Antalya,Engineer B,2026-10-12,Planned
-Adana,Engineer C,2026-10-14,Planned
-Konya,Engineer A,2026-10-16,Planned
-Gaziantep,Engineer B,2026-10-19,Planned
-Kayseri,Engineer C,2026-10-21,Planned
-Samsun,Engineer A,2026-10-23,Planned
+Site,Owner,Planned Date,Status,Progress Notes,Next Actions,Last Updated
+Istanbul,Engineer A,2026-10-01,Completed,"20/20 work items completed: configuration migration, routing validation, service tests, customer acceptance and operations handover.",No outstanding migration work. Monitor under normal operations.,2026-10-12
+Ankara,Engineer B,2026-10-05,In Progress,"15/20 work items completed: backups, configuration transfer and initial connectivity checks. Configuration mismatch is under investigation (I001).",Complete 3 service validation checks after fixing the mismatch; finish 2 acceptance and handover items.,2026-10-12
+Izmir,Engineer C,2026-10-06,Planned,0/20 migration work items completed. Carrier circuit activation is a prerequisite (D001).,Obtain carrier activation confirmation; agree a revised migration window if approved.,2026-10-12
+Bursa,Engineer A,2026-10-07,Tested,19/20 work items completed: migration and technical tests passed. Customer acceptance remains pending (I002).,Obtain customer acceptance sign-off for the final work item; then update Status to Completed.,2026-10-12
+Antalya,Engineer B,2026-10-12,Planned,0/20 migration work items completed. Equipment delivery is being tracked as a risk (R001).,Confirm equipment arrival and spare availability before authorizing migration.,2026-10-12
+Adana,Engineer C,2026-10-14,Planned,0/20 migration work items completed. Migration is scheduled; execution has not started.,Confirm access and maintenance window; assign an engineer and prepare the configuration backup.,2026-10-12
+Konya,Engineer A,2026-10-16,Planned,0/20 migration work items completed. Migration is scheduled; execution has not started.,Approve the method of procedure and rollback plan; confirm engineer allocation.,2026-10-12
+Gaziantep,Engineer B,2026-10-19,Planned,0/20 migration work items completed. Migration is scheduled; execution has not started.,Confirm equipment readiness and site access; review the pre-migration checklist.,2026-10-12
+Kayseri,Engineer C,2026-10-21,Planned,0/20 migration work items completed. Migration is scheduled; execution has not started.,Confirm the maintenance window and customer contacts; prepare service validation checks.,2026-10-12
+Samsun,Engineer A,2026-10-23,Planned,0/20 migration work items completed. Migration is scheduled; execution has not started.,Confirm resource availability (R002); review configuration and rollback readiness.,2026-10-12

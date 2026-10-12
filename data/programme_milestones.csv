@@ -1,0 +1,8 @@
+ID,Milestone,Baseline,Forecast,Actual,Owner
+M01,Design approval,2026-08-21,2026-08-21,2026-08-21,Architect
+M02,Core readiness,2026-09-18,2026-09-18,2026-09-18,Core Lead
+M03,Pilot acceptance,2026-09-25,2026-09-25,2026-09-25,Migration Lead
+M04,Wave 1 complete,2026-10-16,2026-10-23,,Migration Lead
+M05,Wave 2 complete,2026-11-13,2026-11-20,,Migration Lead
+M06,Service acceptance,2026-11-20,2026-11-27,,Operations Lead
+M07,Project closure,2026-12-11,2026-12-18,,PM

@@ -1,0 +1,13 @@
+ID,Workstream,Task,Owner,Baseline start,Baseline finish,Dependencies,Complete,Effort days,Actual finish,Forecast finish
+T01,Governance,Scope and baseline,Project Manager,2026-07-06,2026-07-17,,1.0,10,2026-07-17,2026-07-17
+T02,Design,Site surveys and inventory,Network Architect,2026-07-13,2026-08-07,T01,1.0,15,2026-08-07,2026-08-07
+T03,Design,HLD and LLD approval,Network Architect,2026-07-27,2026-08-21,T02,1.0,20,2026-08-21,2026-08-21
+T04,Procurement,Router and optics delivery,Vendor Manager,2026-08-03,2026-09-18,T03,0.9,15,,2026-10-09
+T05,Core,Core routing build,Core Lead,2026-08-24,2026-09-18,T03,1.0,20,2026-09-18,2026-09-18
+T06,Security,Firewall policy validation,Security Lead,2026-09-07,2026-10-09,T05,0.8,15,,2026-10-09
+T07,Access,Pilot migration: 4 branches,Migration Lead,2026-09-14,2026-09-25,T05,1.0,15,2026-09-25,2026-09-25
+T08,Access,Wave 1: 8 branches,Migration Lead,2026-09-28,2026-10-16,T07,0.5,20,,2026-10-23
+T09,Access,Wave 2: 12 branches,Migration Lead,2026-10-19,2026-11-13,T08,0.0,25,,2026-11-20
+T10,Operations,NMS and service acceptance,Operations Lead,2026-10-12,2026-11-20,"T06,T09",0.2,15,,2026-11-27
+T11,Closure,Hypercare and handover,Operations Lead,2026-11-23,2026-12-04,T10,0.0,10,,2026-12-11
+T12,Closure,Project closure,Project Manager,2026-12-07,2026-12-11,T11,0.0,5,,2026-12-18

@@ -1,0 +1,7 @@
+Role,Owner,Capacity days,Assigned days
+PM,Erdem (example),22,20
+Network Architect,Design Team,22,16
+Core Engineer,Core Team,44,34
+Migration Engineer,Migration Team,66,72
+Security Engineer,Security Team,22,18
+Operations Engineer,NOC Team,44,36

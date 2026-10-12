@@ -1,0 +1,7 @@
+ID,Type,Description,Owner,Probability 1–5,Impact 1–5,Response / resolution,Due date,Status
+R01,Risk,Optics delivery misses Wave 1,Vendor Manager,4.0,4.0,Expedite shipment and reserve spares,2026-10-09,Open
+I01,Issue,Two carrier circuits fail acceptance,Carrier Lead,,4.0,Retest circuits and book backup window,2026-10-08,Open
+R02,Risk,Firewall policy blocks application flows,Security Lead,3.0,4.0,Validate traffic matrix before each wave,2026-10-09,Open
+A01,Assumption,Branches approve weekend access,PM,,,Confirm all branch approvals,2026-10-07,Open
+D01,Dependency,Carrier completes circuit acceptance,Carrier Lead,,,Obtain test evidence before migration,2026-10-08,Open
+R03,Risk,Operations capacity during hypercare,Operations Lead,2.0,3.0,Reserve support roster,2026-11-13,Open

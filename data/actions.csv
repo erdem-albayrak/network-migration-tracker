@@ -1,0 +1,7 @@
+ID,Action,Owner,Due date,Priority,Status,Reference
+ACT01,Confirm optics shipment,Vendor Manager,2026-10-05,High,Open,R01
+ACT02,Retest two carrier circuits,Carrier Lead,2026-10-08,High,In Progress,I01
+ACT03,Approve backup change window,Change Board,2026-10-07,High,Open,DEC01
+ACT04,Validate application traffic matrix,Security Lead,2026-10-09,High,In Progress,R02
+ACT05,Approve 6 extra engineer days,Sponsor,2026-10-06,Medium,Open,DEC02
+ACT06,Capture pilot acceptance evidence,Migration Lead,2026-09-25,Medium,Closed,M03

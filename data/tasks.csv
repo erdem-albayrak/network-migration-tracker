@@ -1,0 +1,201 @@
+Task ID,Site,Task,Owner,Start Date,End Date,Status,Depends On,Waiting Reason,Actual Finish,Phase
+T01-01,Istanbul,Scope and inventory review,Engineer A,2026-09-27,2026-09-27,Completed,,,2026-09-27,Planning
+T01-02,Istanbul,Site access confirmation,Engineer A,2026-09-27,2026-09-27,Completed,T01-01,,2026-09-27,Planning
+T01-03,Istanbul,Maintenance window approval,Engineer A,2026-09-27,2026-09-27,Completed,T01-02,,2026-09-27,Planning
+T01-04,Istanbul,Engineer allocation,Engineer A,2026-09-27,2026-09-27,Completed,T01-03,,2026-09-27,Planning
+T01-05,Istanbul,Equipment readiness,Engineer A,2026-09-28,2026-09-28,Completed,T01-04,,2026-09-28,Readiness
+T01-06,Istanbul,Circuit readiness,Engineer A,2026-09-28,2026-09-28,Completed,T01-05,,2026-09-28,Readiness
+T01-07,Istanbul,Configuration backup,Engineer A,2026-09-28,2026-09-28,Completed,T01-06,,2026-09-28,Readiness
+T01-08,Istanbul,Baseline capture,Engineer A,2026-09-28,2026-09-28,Completed,T01-07,,2026-09-28,Readiness
+T01-09,Istanbul,Migration procedure approval,Engineer A,2026-09-29,2026-09-29,Completed,T01-08,,2026-09-29,Readiness
+T01-10,Istanbul,Rollback plan approval,Engineer A,2026-09-29,2026-09-29,Completed,T01-09,,2026-09-29,Readiness
+T01-11,Istanbul,Configuration preparation,Engineer A,2026-09-29,2026-09-29,Completed,T01-10,,2026-09-29,Execution
+T01-12,Istanbul,Configuration transfer,Engineer A,2026-09-29,2026-09-29,Completed,T01-11,,2026-09-29,Execution
+T01-13,Istanbul,Connectivity checks,Engineer A,2026-09-30,2026-09-30,Completed,T01-12,,2026-09-30,Execution
+T01-14,Istanbul,Routing validation,Engineer A,2026-09-30,2026-09-30,Completed,T01-13,,2026-09-30,Execution
+T01-15,Istanbul,Baseline routing comparison,Engineer A,2026-09-30,2026-09-30,Completed,T01-14,,2026-09-30,Execution
+T01-16,Istanbul,Service test 1,Engineer A,2026-09-30,2026-09-30,Completed,T01-15,,2026-09-30,Validation
+T01-17,Istanbul,Service test 2,Engineer A,2026-10-01,2026-10-01,Completed,T01-16,,2026-10-01,Validation
+T01-18,Istanbul,Service test 3,Engineer A,2026-10-01,2026-10-01,Completed,T01-17,,2026-10-01,Validation
+T01-19,Istanbul,Handover documentation,Engineer A,2026-10-01,2026-10-01,Completed,T01-18,,2026-10-01,Acceptance
+T01-20,Istanbul,Customer acceptance and closure,Engineer A,2026-10-01,2026-10-01,Completed,T01-19,,2026-10-01,Acceptance
+T02-01,Ankara,Scope and inventory review,Engineer B,2026-10-01,2026-10-01,Completed,,,2026-10-01,Planning
+T02-02,Ankara,Site access confirmation,Engineer B,2026-10-01,2026-10-01,Completed,T02-01,,2026-10-01,Planning
+T02-03,Ankara,Maintenance window approval,Engineer B,2026-10-01,2026-10-01,Completed,T02-02,,2026-10-01,Planning
+T02-04,Ankara,Engineer allocation,Engineer B,2026-10-01,2026-10-01,Completed,T02-03,,2026-10-01,Planning
+T02-05,Ankara,Equipment readiness,Engineer B,2026-10-02,2026-10-02,Completed,T02-04,,2026-10-02,Readiness
+T02-06,Ankara,Circuit readiness,Engineer B,2026-10-02,2026-10-02,Completed,T02-05,,2026-10-02,Readiness
+T02-07,Ankara,Configuration backup,Engineer B,2026-10-02,2026-10-02,Completed,T02-06,,2026-10-02,Readiness
+T02-08,Ankara,Baseline capture,Engineer B,2026-10-02,2026-10-02,Completed,T02-07,,2026-10-02,Readiness
+T02-09,Ankara,Migration procedure approval,Engineer B,2026-10-03,2026-10-03,Completed,T02-08,,2026-10-03,Readiness
+T02-10,Ankara,Rollback plan approval,Engineer B,2026-10-03,2026-10-03,Completed,T02-09,,2026-10-03,Readiness
+T02-11,Ankara,Configuration preparation,Engineer B,2026-10-03,2026-10-03,Completed,T02-10,,2026-10-03,Execution
+T02-12,Ankara,Configuration transfer,Engineer B,2026-10-03,2026-10-03,Completed,T02-11,,2026-10-03,Execution
+T02-13,Ankara,Connectivity checks,Engineer B,2026-10-04,2026-10-04,Completed,T02-12,,2026-10-04,Execution
+T02-14,Ankara,Routing validation,Engineer B,2026-10-04,2026-10-04,Completed,T02-13,,2026-10-04,Execution
+T02-15,Ankara,Baseline routing comparison,Engineer B,2026-10-04,2026-10-04,Completed,T02-14,,2026-10-04,Execution
+T02-16,Ankara,Configuration correction and service test 1,Engineer B,2026-10-04,2026-10-04,In Progress,T02-15,I001: validate after configuration mismatch fix,,Validation
+T02-17,Ankara,Service test 2,Engineer B,2026-10-05,2026-10-05,Planned,T02-16,,,Validation
+T02-18,Ankara,Service test 3,Engineer B,2026-10-05,2026-10-05,Planned,T02-17,,,Validation
+T02-19,Ankara,Handover documentation,Engineer B,2026-10-05,2026-10-05,Planned,T02-18,,,Acceptance
+T02-20,Ankara,Customer acceptance and closure,Engineer B,2026-10-05,2026-10-05,Planned,T02-19,,,Acceptance
+T03-01,Izmir,Scope and inventory review,Engineer C,2026-10-02,2026-10-02,Planned,,,,Planning
+T03-02,Izmir,Site access confirmation,Engineer C,2026-10-02,2026-10-02,Planned,T03-01,,,Planning
+T03-03,Izmir,Maintenance window approval,Engineer C,2026-10-02,2026-10-02,Planned,T03-02,,,Planning
+T03-04,Izmir,Engineer allocation,Engineer C,2026-10-02,2026-10-02,Planned,T03-03,,,Planning
+T03-05,Izmir,Equipment readiness,Engineer C,2026-10-03,2026-10-03,Planned,T03-04,,,Readiness
+T03-06,Izmir,Circuit readiness,Engineer C,2026-10-03,2026-10-03,Waiting,T03-05,D001: carrier circuit activation,,Readiness
+T03-07,Izmir,Configuration backup,Engineer C,2026-10-03,2026-10-03,Planned,T03-06,,,Readiness
+T03-08,Izmir,Baseline capture,Engineer C,2026-10-03,2026-10-03,Planned,T03-07,,,Readiness
+T03-09,Izmir,Migration procedure approval,Engineer C,2026-10-04,2026-10-04,Planned,T03-08,,,Readiness
+T03-10,Izmir,Rollback plan approval,Engineer C,2026-10-04,2026-10-04,Planned,T03-09,,,Readiness
+T03-11,Izmir,Configuration preparation,Engineer C,2026-10-04,2026-10-04,Planned,T03-10,,,Execution
+T03-12,Izmir,Configuration transfer,Engineer C,2026-10-04,2026-10-04,Planned,T03-11,,,Execution
+T03-13,Izmir,Connectivity checks,Engineer C,2026-10-05,2026-10-05,Planned,T03-12,,,Execution
+T03-14,Izmir,Routing validation,Engineer C,2026-10-05,2026-10-05,Planned,T03-13,,,Execution
+T03-15,Izmir,Baseline routing comparison,Engineer C,2026-10-05,2026-10-05,Planned,T03-14,,,Execution
+T03-16,Izmir,Service test 1,Engineer C,2026-10-05,2026-10-05,Planned,T03-15,,,Validation
+T03-17,Izmir,Service test 2,Engineer C,2026-10-06,2026-10-06,Planned,T03-16,,,Validation
+T03-18,Izmir,Service test 3,Engineer C,2026-10-06,2026-10-06,Planned,T03-17,,,Validation
+T03-19,Izmir,Handover documentation,Engineer C,2026-10-06,2026-10-06,Planned,T03-18,,,Acceptance
+T03-20,Izmir,Customer acceptance and closure,Engineer C,2026-10-06,2026-10-06,Planned,T03-19,,,Acceptance
+T04-01,Bursa,Scope and inventory review,Engineer A,2026-10-03,2026-10-03,Completed,,,2026-10-03,Planning
+T04-02,Bursa,Site access confirmation,Engineer A,2026-10-03,2026-10-03,Completed,T04-01,,2026-10-03,Planning
+T04-03,Bursa,Maintenance window approval,Engineer A,2026-10-03,2026-10-03,Completed,T04-02,,2026-10-03,Planning
+T04-04,Bursa,Engineer allocation,Engineer A,2026-10-03,2026-10-03,Completed,T04-03,,2026-10-03,Planning
+T04-05,Bursa,Equipment readiness,Engineer A,2026-10-04,2026-10-04,Completed,T04-04,,2026-10-04,Readiness
+T04-06,Bursa,Circuit readiness,Engineer A,2026-10-04,2026-10-04,Completed,T04-05,,2026-10-04,Readiness
+T04-07,Bursa,Configuration backup,Engineer A,2026-10-04,2026-10-04,Completed,T04-06,,2026-10-04,Readiness
+T04-08,Bursa,Baseline capture,Engineer A,2026-10-04,2026-10-04,Completed,T04-07,,2026-10-04,Readiness
+T04-09,Bursa,Migration procedure approval,Engineer A,2026-10-05,2026-10-05,Completed,T04-08,,2026-10-05,Readiness
+T04-10,Bursa,Rollback plan approval,Engineer A,2026-10-05,2026-10-05,Completed,T04-09,,2026-10-05,Readiness
+T04-11,Bursa,Configuration preparation,Engineer A,2026-10-05,2026-10-05,Completed,T04-10,,2026-10-05,Execution
+T04-12,Bursa,Configuration transfer,Engineer A,2026-10-05,2026-10-05,Completed,T04-11,,2026-10-05,Execution
+T04-13,Bursa,Connectivity checks,Engineer A,2026-10-06,2026-10-06,Completed,T04-12,,2026-10-06,Execution
+T04-14,Bursa,Routing validation,Engineer A,2026-10-06,2026-10-06,Completed,T04-13,,2026-10-06,Execution
+T04-15,Bursa,Baseline routing comparison,Engineer A,2026-10-06,2026-10-06,Completed,T04-14,,2026-10-06,Execution
+T04-16,Bursa,Service test 1,Engineer A,2026-10-06,2026-10-06,Completed,T04-15,,2026-10-06,Validation
+T04-17,Bursa,Service test 2,Engineer A,2026-10-07,2026-10-07,Completed,T04-16,,2026-10-07,Validation
+T04-18,Bursa,Service test 3,Engineer A,2026-10-07,2026-10-07,Completed,T04-17,,2026-10-07,Validation
+T04-19,Bursa,Handover documentation,Engineer A,2026-10-07,2026-10-07,Completed,T04-18,,2026-10-07,Acceptance
+T04-20,Bursa,Customer acceptance and closure,Engineer A,2026-10-07,2026-10-07,Waiting,T04-19,I002: customer acceptance sign-off,,Acceptance
+T05-01,Antalya,Scope and inventory review,Engineer B,2026-10-08,2026-10-08,Planned,,,,Planning
+T05-02,Antalya,Site access confirmation,Engineer B,2026-10-08,2026-10-08,Planned,T05-01,,,Planning
+T05-03,Antalya,Maintenance window approval,Engineer B,2026-10-08,2026-10-08,Planned,T05-02,,,Planning
+T05-04,Antalya,Engineer allocation,Engineer B,2026-10-08,2026-10-08,Planned,T05-03,,,Planning
+T05-05,Antalya,Equipment readiness,Engineer B,2026-10-09,2026-10-09,Waiting,T05-04,R001: confirm equipment delivery,,Readiness
+T05-06,Antalya,Circuit readiness,Engineer B,2026-10-09,2026-10-09,Planned,T05-05,,,Readiness
+T05-07,Antalya,Configuration backup,Engineer B,2026-10-09,2026-10-09,Planned,T05-06,,,Readiness
+T05-08,Antalya,Baseline capture,Engineer B,2026-10-09,2026-10-09,Planned,T05-07,,,Readiness
+T05-09,Antalya,Migration procedure approval,Engineer B,2026-10-10,2026-10-10,Planned,T05-08,,,Readiness
+T05-10,Antalya,Rollback plan approval,Engineer B,2026-10-10,2026-10-10,Planned,T05-09,,,Readiness
+T05-11,Antalya,Configuration preparation,Engineer B,2026-10-10,2026-10-10,Planned,T05-10,,,Execution
+T05-12,Antalya,Configuration transfer,Engineer B,2026-10-10,2026-10-10,Planned,T05-11,,,Execution
+T05-13,Antalya,Connectivity checks,Engineer B,2026-10-11,2026-10-11,Planned,T05-12,,,Execution
+T05-14,Antalya,Routing validation,Engineer B,2026-10-11,2026-10-11,Planned,T05-13,,,Execution
+T05-15,Antalya,Baseline routing comparison,Engineer B,2026-10-11,2026-10-11,Planned,T05-14,,,Execution
+T05-16,Antalya,Service test 1,Engineer B,2026-10-11,2026-10-11,Planned,T05-15,,,Validation
+T05-17,Antalya,Service test 2,Engineer B,2026-10-12,2026-10-12,Planned,T05-16,,,Validation
+T05-18,Antalya,Service test 3,Engineer B,2026-10-12,2026-10-12,Planned,T05-17,,,Validation
+T05-19,Antalya,Handover documentation,Engineer B,2026-10-12,2026-10-12,Planned,T05-18,,,Acceptance
+T05-20,Antalya,Customer acceptance and closure,Engineer B,2026-10-12,2026-10-12,Planned,T05-19,,,Acceptance
+T06-01,Adana,Scope and inventory review,Engineer C,2026-10-10,2026-10-10,Planned,,,,Planning
+T06-02,Adana,Site access confirmation,Engineer C,2026-10-10,2026-10-10,Planned,T06-01,,,Planning
+T06-03,Adana,Maintenance window approval,Engineer C,2026-10-10,2026-10-10,Planned,T06-02,,,Planning
+T06-04,Adana,Engineer allocation,Engineer C,2026-10-10,2026-10-10,Planned,T06-03,,,Planning
+T06-05,Adana,Equipment readiness,Engineer C,2026-10-11,2026-10-11,Planned,T06-04,,,Readiness
+T06-06,Adana,Circuit readiness,Engineer C,2026-10-11,2026-10-11,Planned,T06-05,,,Readiness
+T06-07,Adana,Configuration backup,Engineer C,2026-10-11,2026-10-11,Planned,T06-06,,,Readiness
+T06-08,Adana,Baseline capture,Engineer C,2026-10-11,2026-10-11,Planned,T06-07,,,Readiness
+T06-09,Adana,Migration procedure approval,Engineer C,2026-10-12,2026-10-12,Planned,T06-08,,,Readiness
+T06-10,Adana,Rollback plan approval,Engineer C,2026-10-12,2026-10-12,Planned,T06-09,,,Readiness
+T06-11,Adana,Configuration preparation,Engineer C,2026-10-12,2026-10-12,Planned,T06-10,,,Execution
+T06-12,Adana,Configuration transfer,Engineer C,2026-10-12,2026-10-12,Planned,T06-11,,,Execution
+T06-13,Adana,Connectivity checks,Engineer C,2026-10-13,2026-10-13,Planned,T06-12,,,Execution
+T06-14,Adana,Routing validation,Engineer C,2026-10-13,2026-10-13,Planned,T06-13,,,Execution
+T06-15,Adana,Baseline routing comparison,Engineer C,2026-10-13,2026-10-13,Planned,T06-14,,,Execution
+T06-16,Adana,Service test 1,Engineer C,2026-10-13,2026-10-13,Planned,T06-15,,,Validation
+T06-17,Adana,Service test 2,Engineer C,2026-10-14,2026-10-14,Planned,T06-16,,,Validation
+T06-18,Adana,Service test 3,Engineer C,2026-10-14,2026-10-14,Planned,T06-17,,,Validation
+T06-19,Adana,Handover documentation,Engineer C,2026-10-14,2026-10-14,Planned,T06-18,,,Acceptance
+T06-20,Adana,Customer acceptance and closure,Engineer C,2026-10-14,2026-10-14,Planned,T06-19,,,Acceptance
+T07-01,Konya,Scope and inventory review,Engineer A,2026-10-12,2026-10-12,Planned,,,,Planning
+T07-02,Konya,Site access confirmation,Engineer A,2026-10-12,2026-10-12,Planned,T07-01,,,Planning
+T07-03,Konya,Maintenance window approval,Engineer A,2026-10-12,2026-10-12,Planned,T07-02,,,Planning
+T07-04,Konya,Engineer allocation,Engineer A,2026-10-12,2026-10-12,Planned,T07-03,,,Planning
+T07-05,Konya,Equipment readiness,Engineer A,2026-10-13,2026-10-13,Planned,T07-04,,,Readiness
+T07-06,Konya,Circuit readiness,Engineer A,2026-10-13,2026-10-13,Planned,T07-05,,,Readiness
+T07-07,Konya,Configuration backup,Engineer A,2026-10-13,2026-10-13,Planned,T07-06,,,Readiness
+T07-08,Konya,Baseline capture,Engineer A,2026-10-13,2026-10-13,Planned,T07-07,,,Readiness
+T07-09,Konya,Migration procedure approval,Engineer A,2026-10-14,2026-10-14,Planned,T07-08,,,Readiness
+T07-10,Konya,Rollback plan approval,Engineer A,2026-10-14,2026-10-14,Planned,T07-09,,,Readiness
+T07-11,Konya,Configuration preparation,Engineer A,2026-10-14,2026-10-14,Planned,T07-10,,,Execution
+T07-12,Konya,Configuration transfer,Engineer A,2026-10-14,2026-10-14,Planned,T07-11,,,Execution
+T07-13,Konya,Connectivity checks,Engineer A,2026-10-15,2026-10-15,Planned,T07-12,,,Execution
+T07-14,Konya,Routing validation,Engineer A,2026-10-15,2026-10-15,Planned,T07-13,,,Execution
+T07-15,Konya,Baseline routing comparison,Engineer A,2026-10-15,2026-10-15,Planned,T07-14,,,Execution
+T07-16,Konya,Service test 1,Engineer A,2026-10-15,2026-10-15,Planned,T07-15,,,Validation
+T07-17,Konya,Service test 2,Engineer A,2026-10-16,2026-10-16,Planned,T07-16,,,Validation
+T07-18,Konya,Service test 3,Engineer A,2026-10-16,2026-10-16,Planned,T07-17,,,Validation
+T07-19,Konya,Handover documentation,Engineer A,2026-10-16,2026-10-16,Planned,T07-18,,,Acceptance
+T07-20,Konya,Customer acceptance and closure,Engineer A,2026-10-16,2026-10-16,Planned,T07-19,,,Acceptance
+T08-01,Gaziantep,Scope and inventory review,Engineer B,2026-10-15,2026-10-15,Planned,,,,Planning
+T08-02,Gaziantep,Site access confirmation,Engineer B,2026-10-15,2026-10-15,Planned,T08-01,,,Planning
+T08-03,Gaziantep,Maintenance window approval,Engineer B,2026-10-15,2026-10-15,Planned,T08-02,,,Planning
+T08-04,Gaziantep,Engineer allocation,Engineer B,2026-10-15,2026-10-15,Planned,T08-03,,,Planning
+T08-05,Gaziantep,Equipment readiness,Engineer B,2026-10-16,2026-10-16,Planned,T08-04,,,Readiness
+T08-06,Gaziantep,Circuit readiness,Engineer B,2026-10-16,2026-10-16,Planned,T08-05,,,Readiness
+T08-07,Gaziantep,Configuration backup,Engineer B,2026-10-16,2026-10-16,Planned,T08-06,,,Readiness
+T08-08,Gaziantep,Baseline capture,Engineer B,2026-10-16,2026-10-16,Planned,T08-07,,,Readiness
+T08-09,Gaziantep,Migration procedure approval,Engineer B,2026-10-17,2026-10-17,Planned,T08-08,,,Readiness
+T08-10,Gaziantep,Rollback plan approval,Engineer B,2026-10-17,2026-10-17,Planned,T08-09,,,Readiness
+T08-11,Gaziantep,Configuration preparation,Engineer B,2026-10-17,2026-10-17,Planned,T08-10,,,Execution
+T08-12,Gaziantep,Configuration transfer,Engineer B,2026-10-17,2026-10-17,Planned,T08-11,,,Execution
+T08-13,Gaziantep,Connectivity checks,Engineer B,2026-10-18,2026-10-18,Planned,T08-12,,,Execution
+T08-14,Gaziantep,Routing validation,Engineer B,2026-10-18,2026-10-18,Planned,T08-13,,,Execution
+T08-15,Gaziantep,Baseline routing comparison,Engineer B,2026-10-18,2026-10-18,Planned,T08-14,,,Execution
+T08-16,Gaziantep,Service test 1,Engineer B,2026-10-18,2026-10-18,Planned,T08-15,,,Validation
+T08-17,Gaziantep,Service test 2,Engineer B,2026-10-19,2026-10-19,Planned,T08-16,,,Validation
+T08-18,Gaziantep,Service test 3,Engineer B,2026-10-19,2026-10-19,Planned,T08-17,,,Validation
+T08-19,Gaziantep,Handover documentation,Engineer B,2026-10-19,2026-10-19,Planned,T08-18,,,Acceptance
+T08-20,Gaziantep,Customer acceptance and closure,Engineer B,2026-10-19,2026-10-19,Planned,T08-19,,,Acceptance
+T09-01,Kayseri,Scope and inventory review,Engineer C,2026-10-17,2026-10-17,Planned,,,,Planning
+T09-02,Kayseri,Site access confirmation,Engineer C,2026-10-17,2026-10-17,Planned,T09-01,,,Planning
+T09-03,Kayseri,Maintenance window approval,Engineer C,2026-10-17,2026-10-17,Planned,T09-02,,,Planning
+T09-04,Kayseri,Engineer allocation,Engineer C,2026-10-17,2026-10-17,Planned,T09-03,,,Planning
+T09-05,Kayseri,Equipment readiness,Engineer C,2026-10-18,2026-10-18,Planned,T09-04,,,Readiness
+T09-06,Kayseri,Circuit readiness,Engineer C,2026-10-18,2026-10-18,Planned,T09-05,,,Readiness
+T09-07,Kayseri,Configuration backup,Engineer C,2026-10-18,2026-10-18,Planned,T09-06,,,Readiness
+T09-08,Kayseri,Baseline capture,Engineer C,2026-10-18,2026-10-18,Planned,T09-07,,,Readiness
+T09-09,Kayseri,Migration procedure approval,Engineer C,2026-10-19,2026-10-19,Planned,T09-08,,,Readiness
+T09-10,Kayseri,Rollback plan approval,Engineer C,2026-10-19,2026-10-19,Planned,T09-09,,,Readiness
+T09-11,Kayseri,Configuration preparation,Engineer C,2026-10-19,2026-10-19,Planned,T09-10,,,Execution
+T09-12,Kayseri,Configuration transfer,Engineer C,2026-10-19,2026-10-19,Planned,T09-11,,,Execution
+T09-13,Kayseri,Connectivity checks,Engineer C,2026-10-20,2026-10-20,Planned,T09-12,,,Execution
+T09-14,Kayseri,Routing validation,Engineer C,2026-10-20,2026-10-20,Planned,T09-13,,,Execution
+T09-15,Kayseri,Baseline routing comparison,Engineer C,2026-10-20,2026-10-20,Planned,T09-14,,,Execution
+T09-16,Kayseri,Service test 1,Engineer C,2026-10-20,2026-10-20,Planned,T09-15,,,Validation
+T09-17,Kayseri,Service test 2,Engineer C,2026-10-21,2026-10-21,Planned,T09-16,,,Validation
+T09-18,Kayseri,Service test 3,Engineer C,2026-10-21,2026-10-21,Planned,T09-17,,,Validation
+T09-19,Kayseri,Handover documentation,Engineer C,2026-10-21,2026-10-21,Planned,T09-18,,,Acceptance
+T09-20,Kayseri,Customer acceptance and closure,Engineer C,2026-10-21,2026-10-21,Planned,T09-19,,,Acceptance
+T10-01,Samsun,Scope and inventory review,Engineer A,2026-10-19,2026-10-19,Planned,,,,Planning
+T10-02,Samsun,Site access confirmation,Engineer A,2026-10-19,2026-10-19,Planned,T10-01,,,Planning
+T10-03,Samsun,Maintenance window approval,Engineer A,2026-10-19,2026-10-19,Planned,T10-02,,,Planning
+T10-04,Samsun,Engineer allocation,Engineer A,2026-10-19,2026-10-19,Planned,T10-03,,,Planning
+T10-05,Samsun,Equipment readiness,Engineer A,2026-10-20,2026-10-20,Planned,T10-04,,,Readiness
+T10-06,Samsun,Circuit readiness,Engineer A,2026-10-20,2026-10-20,Planned,T10-05,,,Readiness
+T10-07,Samsun,Configuration backup,Engineer A,2026-10-20,2026-10-20,Planned,T10-06,,,Readiness
+T10-08,Samsun,Baseline capture,Engineer A,2026-10-20,2026-10-20,Planned,T10-07,,,Readiness
+T10-09,Samsun,Migration procedure approval,Engineer A,2026-10-21,2026-10-21,Planned,T10-08,,,Readiness
+T10-10,Samsun,Rollback plan approval,Engineer A,2026-10-21,2026-10-21,Planned,T10-09,,,Readiness
+T10-11,Samsun,Configuration preparation,Engineer A,2026-10-21,2026-10-21,Planned,T10-10,,,Execution
+T10-12,Samsun,Configuration transfer,Engineer A,2026-10-21,2026-10-21,Planned,T10-11,,,Execution
+T10-13,Samsun,Connectivity checks,Engineer A,2026-10-22,2026-10-22,Planned,T10-12,,,Execution
+T10-14,Samsun,Routing validation,Engineer A,2026-10-22,2026-10-22,Planned,T10-13,,,Execution
+T10-15,Samsun,Baseline routing comparison,Engineer A,2026-10-22,2026-10-22,Planned,T10-14,,,Execution
+T10-16,Samsun,Service test 1,Engineer A,2026-10-22,2026-10-22,Planned,T10-15,,,Validation
+T10-17,Samsun,Service test 2,Engineer A,2026-10-23,2026-10-23,Planned,T10-16,,,Validation
+T10-18,Samsun,Service test 3,Engineer A,2026-10-23,2026-10-23,Planned,T10-17,,,Validation
+T10-19,Samsun,Handover documentation,Engineer A,2026-10-23,2026-10-23,Planned,T10-18,,,Acceptance
+T10-20,Samsun,Customer acceptance and closure,Engineer A,2026-10-23,2026-10-23,Planned,T10-19,,,Acceptance

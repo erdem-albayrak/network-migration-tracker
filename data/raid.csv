@@ -1,7 +1,7 @@
 ID,Type,Description,Owner,Priority,Due Date,Status,Action
-R001,Risk,Equipment delivery may delay Antalya migration,Project Manager,High,10/9/2026,Open,Confirm delivery date and reserve spare equipment
-A001,Assumption,Approved maintenance windows will remain available,Change Manager,Medium,10/9/2026,In Progress,Confirm maintenance windows with site owners
-I001,Issue,Ankara migration is delayed by a configuration mismatch,Engineer B,High,10/9/2026,In Progress,Correct configuration and repeat validation
-D001,Dependency,Izmir migration requires carrier circuit activation,Vendor Manager,High,10/9/2026,Open,Obtain activation confirmation from carrier
-R002,Risk,Limited engineer availability may affect parallel migrations,Project Manager,Medium,10/12/2026,Open,Review resource allocation and assign backup engineers
-I002,Issue,Bursa acceptance sign-off is pending,Engineer A,Medium,10/9/2026,Open,Obtain customer acceptance after successful testing
+R001,Risk,Equipment delivery may delay Antalya migration,Project Manager,High,2026-10-09,Open,Confirm delivery date and reserve spare equipment
+A001,Assumption,Approved maintenance windows will remain available,Change Manager,Medium,2026-10-09,In Progress,Confirm maintenance windows with site owners
+I001,Issue,Ankara migration is delayed by a configuration mismatch,Engineer B,High,2026-10-09,In Progress,Correct configuration and repeat validation
+D001,Dependency,Izmir migration requires carrier circuit activation,Vendor Manager,High,2026-10-09,Open,Obtain activation confirmation from carrier
+R002,Risk,Limited engineer availability may affect parallel migrations,Project Manager,Medium,2026-10-12,Open,Review resource allocation and assign backup engineers
+I002,Issue,Bursa acceptance sign-off is pending,Engineer A,Medium,2026-10-09,Open,Obtain customer acceptance after successful testing
